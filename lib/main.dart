@@ -27,12 +27,13 @@ class FacebookApp extends StatelessWidget {
   Widget build(BuildContext context) {
     // ignore: prefer_const_constructors
     return  Scaffold(
-     appBar: AppBar(
+appBar: AppBar(
       // ignore: prefer_const_constructors
       title: Text("facebook" , style: TextStyle(color: Colors.white)),
       centerTitle: true,
       // ignore: prefer_const_constructors
       leading: IconButton(icon: Icon(Icons.menu), onPressed: () {  },),
+      
 
      ),
     );
